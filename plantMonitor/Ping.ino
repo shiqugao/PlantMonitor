@@ -19,15 +19,7 @@ DHT dht(DHTPin, DHTTYPE);   // Initialize DHT sensor.
 
 // Wifi and MQTT
 #include "arduino_secrets.h" 
-/*
-**** please enter your sensitive data in the Secret tab/arduino_secrets.h
-**** using format below
 
-#define SECRET_SSID "ssid name"
-#define SECRET_PASS "ssid password"
-#define SECRET_MQTTUSER "user name - eg student"
-#define SECRET_MQTTPASS "password";
- */
 
 const char* ssid     = SECRET_SSID;
 const char* password = SECRET_PASS;
