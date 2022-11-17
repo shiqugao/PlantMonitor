@@ -27,7 +27,8 @@ data after watering the plant
 This data is quite correct in other places, but when testing the soil moisture, it can be clearly seen here that the data of the second round of soil moisture fluctuates between 5 and 10. However, through discussion with my classmates, I found that the normal soil moisture fluctuates between 15 and 25, so I think I made mistakes in some places. 
 So I first went back to check whether there was a mistake in the resistance welding on the PCB board. After verifying that it was correct, I thought there might be a phenomenon of virtual welding between the wire and the nail, so the distance between the two points was relatively larger.
 So I welded the wires and nails again, and then I found that the data recovered to a reasonable range after the operation.
-！[3rddata](./image/correct_data.png)
+
+![cordata](./image/correct_data.png)
 
 # Working plant monitor
 ![plantMonitor](./image/plantmonitor.jpg)
